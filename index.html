@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's For Dinner</title>
+    <link rel="icon" href="images/favicon.jfif" />
+    <meta name="description" content="What's For Dinner" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- start navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container gx-0">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <div class="navbar-brand d-flex align-items-center">
+              <div class="logo">
+                <i class="fa-solid fa-utensils"></i>
+              </div>
+              <div class="logo-title">
+                <h1 class="fs-4 fw-bold">What's For Dinner</h1>
+                <p class="text-secondary">Your daily meal inspiration</p>
+              </div>
+            </div>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <div
+              class="desktop-menu d-none d-lg-flex align-items-center ms-auto"
+            >
+              <div class="icons d-flex align-items-center">
+                <button class="btn">
+                  <i class="fa-solid fa-bookmark"></i>
+                </button>
+                <button class="btn">
+                  <i class="fa-solid fa-clock-rotate-left"></i>
+                </button>
+                <button class="btn">
+                  <i class="fa-solid fa-gear"></i>
+                </button>
+              </div>
+              <div class="logo-image ms-lg-3">
+                <img src="images/avatar-4.jpg" alt="avatar" />
+              </div>
+            </div>
+
+            <div class="mobile-menu d-lg-none mt-3 pt-3 border-top">
+              <div class="icons d-flex flex-column">
+                <button class="btn d-flex align-items-center">
+                  <i class="fa-solid fa-bookmark"></i>
+                  <span>Saved Recipes</span>
+                </button>
+                <button class="btn d-flex align-items-center">
+                  <i class="fa-solid fa-clock-rotate-left"></i>
+                  <span>Recent</span>
+                </button>
+                <button class="btn d-flex align-items-center">
+                  <i class="fa-solid fa-gear"></i>
+                  <span>Settings</span>
+                </button>
+              </div>
+
+              <div class="logo-image d-flex align-items-center mt-3 ms-2">
+                <img src="images/avatar-4.jpg" alt="avatar" />
+                <span>Profile</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- start main -->
+    <main>
+      <section id="recipeSection" class="rounded">
+       
+      </section>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
